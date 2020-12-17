@@ -1,5 +1,5 @@
 # USAGE
-# python train_mask_detector.py --dataset dataset
+# python train_3_lables.py --dataset dataset_akka
 
 # import the necessary packages
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
