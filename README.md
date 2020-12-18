@@ -16,5 +16,4 @@ $ python detect_mask_video_akka.py
 <video controls="controls">
   <source type="video/mp4" src="video_mask_test.mp4"></source>
   <source type="video/webm" src="video_mask_test.webm"></source>
-  <p>Your browser does not support the video element.</p>
 </video>
