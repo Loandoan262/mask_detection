@@ -11,3 +11,5 @@ $ python detect_mask_image_akka.py --image images/akka_pic1.png
 ```console
 $ python detect_mask_video_akka.py 
 ```
+# Test
+![Live Demo](https://github.com/Loandoan262/mask_detection/blob/main/video_mask_test.mp4)
