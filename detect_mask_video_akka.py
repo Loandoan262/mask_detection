@@ -128,10 +128,10 @@ while True:
 		# the bounding box and text
 		label = "Maske" if max(pred) == mask else "inkorrekt" if max(pred) == incorrect_wearing else "Keine Maske"  
 		color = (0, 255, 0) if label == "Maske" else (0,140,255) if label == "inkorrekt" else (0, 0, 255)
-		if max(pred) == incorrect_wearing:
-			playsound("nicht_richtig_tragen.mp3")
-		elif max(pred) == withoutMask:
-			playsound("keine_maske.mp3")
+		#if max(pred) == incorrect_wearing:
+			#playsound("nicht_richtig_tragen.mp3")
+		#elif max(pred) == withoutMask:
+			#playsound("keine_maske.mp3")
 
 		# include the probability in the label
 		label = "{}: {:.2f}%".format(label, max(incorrect_wearing, mask, withoutMask) * 100)
